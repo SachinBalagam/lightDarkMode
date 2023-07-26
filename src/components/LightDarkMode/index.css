@@ -1,1 +1,32 @@
 /* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border-radius: 10px;
+  height: 200px;
+}
+.DarkModeStyle {
+  background-color: #000000;
+  color: #ffffff;
+}
+.LightModeStyle {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+}
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
